@@ -4,13 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/mywebsite/</loc>
-    <lastmod>2024-12-17T01:53:10+08:00</lastmod>
+    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/mywebsite/posts/first-post/</loc>
+    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/mywebsite/posts/</loc>
-    <lastmod>2024-12-17T01:53:10+08:00</lastmod>
+    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
