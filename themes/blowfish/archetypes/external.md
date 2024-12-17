@@ -1,10 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+date: "{{ .Date }}"
 externalUrl: ""
 summary: ""
 showReadingTime: false
 _build:
-  render: "false"
+  render: false
   list: "local"
 ---
