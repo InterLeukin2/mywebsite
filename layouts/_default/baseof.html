@@ -40,3 +40,6 @@
   data-color="{{ .Site.Params.buymeacoffee.globalWidgetColor | default "#FFDD00" }}" data-position="{{ .Site.Params.buymeacoffee.globalWidgetPosition | default "Left" }}" data-x_margin="18" data-y_margin="18"></script>
 {{ end }}
 </html>
+
+<p>Image Path: {{ printf "%simg/%s" .Site.BaseURL $.Site.Params.Author.image }}</p>
+
