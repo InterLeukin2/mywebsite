@@ -323,7 +323,7 @@
                                 
                             
                             <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
-                                alt="IL-42" src="/mywebsite/img/blowfish_logo_hu10418442261355118245.png" />
+                                 alt="{{ $.Site.Params.Author.name | default " Author" }}" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.Author.image }}" />
                         
                     
                     <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">

@@ -15,7 +15,7 @@
           {{ $authorImage = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
         <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="{{ $.Site.Params.Author.name | default " Author" }}"
-          src="{{  .Site.BaseURL }}mywebsite/img/{{ $.Site.Params.Author.image  }}" />
+          src="{{  $.Site.BaseURL }}img/{{ $.Site.Params.Author.image  }}" />
       {{ end }}
     {{ end }}
     <h1 class="text-4xl font-extrabold">
