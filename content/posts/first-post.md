@@ -1,6 +1,7 @@
 ---
-title: "My First Post"
-date: 2024-12-17T10:00:00+08:00
-draft: false
+title: "First Post"
+date: "2024-12-20"
+draft: true
+description: ""
 ---
-# penguin is cute.
+already done.

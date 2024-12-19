@@ -4,19 +4,13 @@
 
   <url>
     <loc>https://interleukin2.github.io/mywebsite/</loc>
-    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://interleukin2.github.io/mywebsite/posts/first-post/</loc>
-    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://interleukin2.github.io/mywebsite/posts/</loc>
-    <lastmod>2024-12-17T10:00:00+08:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
