@@ -7,7 +7,7 @@
       {{ $authorImage = resources.GetRemote . }}
     {{ else }}
       <!-- 处理本地静态图片 -->
-      {{ $authorImage = resources.Get ("/img/" | relURL | printf "%s" .) }}
+      {{ $authorImage = resources.Get (printf "/img/%s" . | relURL) }}
     {{ end }}
     {{ if $authorImage }}
       {{ if not $disableImageOptimization }}
